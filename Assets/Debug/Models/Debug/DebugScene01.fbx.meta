@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: b88bfe71b0e38f34aa43b049c210a584
+timeCreated: 1496198193
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DebugScene_Ceiling01
+    100004: DebugScene_Ceiling02
+    100006: DebugScene_Floor01
+    100008: DebugScene_Floor02
+    100010: DebugScene_Floor03
+    100012: DebugScene_Floor04
+    100014: DebugScene_Floor05
+    100016: DebugScene_Floor06
+    100018: DebugScene_Wall01
+    100020: DebugScene_Wall011
+    100022: DebugScene_Wall02
+    100024: DebugScene_Wall03
+    100026: DebugScene_Wall04
+    100028: DebugScene_Wall05
+    100030: DebugScene_Wall06
+    100032: DebugScene_Wall07
+    100034: DebugScene_Wall08
+    100036: DebugScene_Wall09
+    100038: DebugScene_Wall10
+    100040: DebugScene_Wall12
+    100042: DebugScene_Wall13
+    100044: DebugScene_Wall14
+    100046: DebugScene_Wall15
+    100048: DebugScene_Wall16
+    100050: DebugScene_Wall17
+    100052: DebugScene_Wall18
+    100054: DebugScene_Wall19
+    400000: //RootNode
+    400002: DebugScene_Ceiling01
+    400004: DebugScene_Ceiling02
+    400006: DebugScene_Floor01
+    400008: DebugScene_Floor02
+    400010: DebugScene_Floor03
+    400012: DebugScene_Floor04
+    400014: DebugScene_Floor05
+    400016: DebugScene_Floor06
+    400018: DebugScene_Wall01
+    400020: DebugScene_Wall011
+    400022: DebugScene_Wall02
+    400024: DebugScene_Wall03
+    400026: DebugScene_Wall04
+    400028: DebugScene_Wall05
+    400030: DebugScene_Wall06
+    400032: DebugScene_Wall07
+    400034: DebugScene_Wall08
+    400036: DebugScene_Wall09
+    400038: DebugScene_Wall10
+    400040: DebugScene_Wall12
+    400042: DebugScene_Wall13
+    400044: DebugScene_Wall14
+    400046: DebugScene_Wall15
+    400048: DebugScene_Wall16
+    400050: DebugScene_Wall17
+    400052: DebugScene_Wall18
+    400054: DebugScene_Wall19
+    2300000: DebugScene_Ceiling01
+    2300002: DebugScene_Ceiling02
+    2300004: DebugScene_Floor01
+    2300006: DebugScene_Floor02
+    2300008: DebugScene_Floor03
+    2300010: DebugScene_Floor04
+    2300012: DebugScene_Floor05
+    2300014: DebugScene_Floor06
+    2300016: DebugScene_Wall01
+    2300018: DebugScene_Wall011
+    2300020: DebugScene_Wall02
+    2300022: DebugScene_Wall03
+    2300024: DebugScene_Wall04
+    2300026: DebugScene_Wall05
+    2300028: DebugScene_Wall06
+    2300030: DebugScene_Wall07
+    2300032: DebugScene_Wall08
+    2300034: DebugScene_Wall09
+    2300036: DebugScene_Wall10
+    2300038: DebugScene_Wall12
+    2300040: DebugScene_Wall13
+    2300042: DebugScene_Wall14
+    2300044: DebugScene_Wall15
+    2300046: DebugScene_Wall16
+    2300048: DebugScene_Wall17
+    2300050: DebugScene_Wall18
+    2300052: DebugScene_Wall19
+    3300000: DebugScene_Ceiling01
+    3300002: DebugScene_Ceiling02
+    3300004: DebugScene_Floor01
+    3300006: DebugScene_Floor02
+    3300008: DebugScene_Floor03
+    3300010: DebugScene_Floor04
+    3300012: DebugScene_Floor05
+    3300014: DebugScene_Floor06
+    3300016: DebugScene_Wall01
+    3300018: DebugScene_Wall011
+    3300020: DebugScene_Wall02
+    3300022: DebugScene_Wall03
+    3300024: DebugScene_Wall04
+    3300026: DebugScene_Wall05
+    3300028: DebugScene_Wall06
+    3300030: DebugScene_Wall07
+    3300032: DebugScene_Wall08
+    3300034: DebugScene_Wall09
+    3300036: DebugScene_Wall10
+    3300038: DebugScene_Wall12
+    3300040: DebugScene_Wall13
+    3300042: DebugScene_Wall14
+    3300044: DebugScene_Wall15
+    3300046: DebugScene_Wall16
+    3300048: DebugScene_Wall17
+    3300050: DebugScene_Wall18
+    3300052: DebugScene_Wall19
+    4300000: DebugScene_Wall04
+    4300002: DebugScene_Floor01
+    4300004: DebugScene_Ceiling01
+    4300006: DebugScene_Floor03
+    4300008: DebugScene_Wall06
+    4300010: DebugScene_Wall03
+    4300012: DebugScene_Wall07
+    4300014: DebugScene_Floor02
+    4300016: DebugScene_Floor06
+    4300018: DebugScene_Wall02
+    4300020: DebugScene_Wall05
+    4300022: DebugScene_Wall08
+    4300024: DebugScene_Wall09
+    4300026: DebugScene_Wall01
+    4300028: DebugScene_Wall10
+    4300030: DebugScene_Wall011
+    4300032: DebugScene_Wall12
+    4300034: DebugScene_Wall13
+    4300036: DebugScene_Wall14
+    4300038: DebugScene_Wall15
+    4300040: DebugScene_Wall16
+    4300042: DebugScene_Wall17
+    4300044: DebugScene_Wall18
+    4300046: DebugScene_Floor05
+    4300048: DebugScene_Ceiling02
+    4300050: DebugScene_Wall19
+    4300052: DebugScene_Floor04
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 200
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

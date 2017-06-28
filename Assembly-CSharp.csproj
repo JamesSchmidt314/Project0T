@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{6DCC3788-F2F5-5DFF-E4D0-F30D3F1C5AB5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_3;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Debug\Boat.cs" />
+     <Compile Include="Assets\Scripts\Debug\EnemyTest.cs" />
+     <Compile Include="Assets\Scripts\Debug\MainCharacterSetter.cs" />
+     <Compile Include="Assets\Scripts\Debug\SceneSwitchTest.cs" />
+     <Compile Include="Assets\Scripts\Debug\UIPlayerFollow.cs" />
+     <Compile Include="Assets\Scripts\Debug\Water\BoatPhysics.cs" />
+     <Compile Include="Assets\Scripts\Debug\Water\EndlessWaterSquare.cs" />
+     <Compile Include="Assets\Scripts\Debug\Water\ModifyBoatMesh.cs" />
+     <Compile Include="Assets\Scripts\Debug\Water\TriangleData.cs" />
+     <Compile Include="Assets\Scripts\Debug\Water\WaterController.cs" />
+     <Compile Include="Assets\Scripts\Debug\Water\WaterObject.cs" />
+     <Compile Include="Assets\Scripts\Debug\Water\WaterSquare.cs" />
+     <Compile Include="Assets\Scripts\Debug\Water\WaveTypes.cs" />
+     <Compile Include="Assets\Scripts\Debug\WaterCamera.cs" />
+     <Compile Include="Assets\Scripts\Framework\AssetBundles\AssetBundlesUtility.cs" />
+     <Compile Include="Assets\Scripts\Framework\AssetBundles\AssetLoader.cs" />
+     <Compile Include="Assets\Scripts\Framework\BattleManager.cs" />
+     <Compile Include="Assets\Scripts\Framework\BattleRoomData.cs" />
+     <Compile Include="Assets\Scripts\Framework\Cutscenes\CameraPoint.cs" />
+     <Compile Include="Assets\Scripts\Framework\Cutscenes\Cutscene.cs" />
+     <Compile Include="Assets\Scripts\Framework\Cutscenes\CutsceneClip.cs" />
+     <Compile Include="Assets\Scripts\Framework\Game State Machine\BattleState.cs" />
+     <Compile Include="Assets\Scripts\Framework\Game State Machine\CutsceneState.cs" />
+     <Compile Include="Assets\Scripts\Framework\Game State Machine\GameState.cs" />
+     <Compile Include="Assets\Scripts\Framework\Game State Machine\IGameState.cs" />
+     <Compile Include="Assets\Scripts\Framework\Game State Machine\InteractiveState.cs" />
+     <Compile Include="Assets\Scripts\Framework\Game State Machine\LoadingState.cs" />
+     <Compile Include="Assets\Scripts\Framework\Game State Machine\MainMenuState.cs" />
+     <Compile Include="Assets\Scripts\Framework\Game State Machine\MenuState.cs" />
+     <Compile Include="Assets\Scripts\Framework\Game State Machine\OverworldState.cs" />
+     <Compile Include="Assets\Scripts\Framework\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Framework\MusicManager.cs" />
+     <Compile Include="Assets\Scripts\Framework\OverworldRoomData.cs" />
+     <Compile Include="Assets\Scripts\Framework\PersistentSingleton.cs" />
+     <Compile Include="Assets\Scripts\Framework\RPGEvents\Dialogue\DialogueDivergence.cs" />
+     <Compile Include="Assets\Scripts\Framework\RPGEvents\Dialogue\DialogueOption.cs" />
+     <Compile Include="Assets\Scripts\Framework\RPGEvents\Dialogue\DialogueOrder.cs" />
+     <Compile Include="Assets\Scripts\Framework\RPGEvents\Dialogue\DialogueOrderType.cs" />
+     <Compile Include="Assets\Scripts\Framework\RPGEvents\Dialogue\DialogueStatement.cs" />
+     <Compile Include="Assets\Scripts\Framework\RPGEvents\RPGEvent.cs" />
+     <Compile Include="Assets\Scripts\Framework\RPGEvents\RPGEventPage.cs" />
+     <Compile Include="Assets\Scripts\Framework\RoomManager.cs" />
+     <Compile Include="Assets\Scripts\Framework\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Framework\TimeManager.cs" />
+     <Compile Include="Assets\Scripts\GUI\DialogueBox.cs" />
+     <Compile Include="Assets\Scripts\GUI\DialogueFlavor.cs" />
+     <Compile Include="Assets\Scripts\GUI\DialogueFlavorAsset.cs" />
+     <Compile Include="Assets\Scripts\GUI\GUIFormatter.cs" />
+     <Compile Include="Assets\Scripts\GUI\LoadingModal.cs" />
+     <Compile Include="Assets\Scripts\GUI\LocalizedText.cs" />
+     <Compile Include="Assets\Scripts\GUI\SettingsMenu.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\BillboardSprite.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\CharacterData.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\EnemyAsset.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\InventoryItem.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\OverworldPlayerCharacter.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\PartyMember.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\PartyMemberAsset.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\PartyMemberData.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\PartyMemberObject.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\SkyboxCamera.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\Sun.cs" />
+     <Compile Include="Assets\Scripts\Gameplay\WaterBody.cs" />
+     <Compile Include="Assets\Scripts\Graphics\Antialiasing.cs" />
+     <Compile Include="Assets\Scripts\Graphics\Bloom.cs" />
+     <Compile Include="Assets\Scripts\Graphics\DepthOfField.cs" />
+     <Compile Include="Assets\Scripts\Graphics\PostEffectsBase.cs" />
+     <Compile Include="Assets\Scripts\IO\PlayerDataManager.cs" />
+     <Compile Include="Assets\Scripts\IO\SaveFile.cs" />
+     <Compile Include="Assets\Scripts\IO\SettingsData.cs" />
+     <Compile Include="Assets\Scripts\Localization\LocalizationData.cs" />
+     <Compile Include="Assets\Scripts\Localization\LocalizationManager.cs" />
+     <None Include="Assets\Shaders\Water\WaterShader_Fallback.shader" />
+     <None Include="Assets\Shaders\ImageEffects\FXAA2.shader" />
+     <None Include="Assets\Shaders\Water\WaterShader3.shader" />
+     <None Include="Assets\Shaders\ImageEffects\Bloom.shader" />
+     <None Include="Assets\Shaders\Water\WaterShader.shader" />
+     <None Include="Assets\Shaders\ImageEffects\DepthOfField.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
